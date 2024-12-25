@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #91cbcd;
+    color: #000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    max-width: 500px;
+    background-color: #91cbcd;
+}
+.stats-container {
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #838dff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+.details {
+    width: 100%;
+}
+#progressbar {
+    width: 100%;
+    height: 10px;
+    background-color: azure;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#progress {
+    width: 50%;
+    height: 10px;
+    background-color: #171c48;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#numbers {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+form {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 5px;
+    background-color: #91cbcd;
+    border: 1px solid #010808;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #108e57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e7477;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover {
+    background-color: #76887a;
+}
+
+
+ul {
+    list-style-type: decimal;
+    padding: 4px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 18px; 
+}
+
+li .task-checkbox {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 120px;
+}
+
+li button {
+    background-color: #dc3545; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+    margin-left: 120px;
+}
+
+li button:hover {
+    background-color: #c82333;
+    height: 10px;
+    width: 10px;
+}
